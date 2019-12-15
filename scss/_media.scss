@@ -1,0 +1,59 @@
+@media screen and (max-width: 1397px) {
+  .flower-right {
+    display: none !important;
+  }
+  .flower-left {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .menu a {
+    font-size: 15px;
+  }
+}
+
+
+@media screen and (max-width: 769px) {
+  .menu {
+    & li {
+      margin-right: 7%;
+    }
+    & a {
+      font-size: 16px;
+    }
+  }
+  .logo {
+    width: 185px;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #wrap {
+    width: 90%;
+    margin: auto;
+  }
+  .price-row {
+    flex-direction: column;
+  }
+  .supermenu {
+    display: none;
+  }
+  .menu {
+    & li:first-child {
+      margin-right: 15%;
+    }
+  }
+  .supermenu-item .supermenu-img {
+    background: #fff;
+    max-height: 30px !important;
+    max-width: 30px !important;
+    min-width: 30px !important;
+    & img {
+      width: 100%;
+    }
+  }
+}
