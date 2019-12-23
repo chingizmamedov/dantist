@@ -481,6 +481,9 @@ h1.title {
           justify-content: center;
   text-decoration: none;
   color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 24px;
 }
 
 .header-callback img {
@@ -493,13 +496,18 @@ h1.title {
   margin-right: 14px;
 }
 
+.header-contacts {
+  padding-left: 16px;
+}
+
 .logo {
   margin-right: 48px;
   width: 100%;
 }
 
 .logo img {
-  width: 100%;
+  max-width: 100%;
+  width: 95%;
 }
 
 .img-vk {
@@ -507,7 +515,7 @@ h1.title {
 }
 
 .img-ok {
-  margin-left: 4px;
+  margin-left: 8px;
 }
 
 .img-eye {
@@ -517,7 +525,7 @@ h1.title {
 .img-search {
   position: absolute;
   right: 22px;
-  top: 1px;
+  top: -2px;
   cursor: pointer;
   -webkit-transition: .3s;
   -o-transition: .3s;
@@ -542,7 +550,7 @@ h1.title {
 }
 
 .location span {
-  border-bottom: 1px solid #696F75;
+  border-bottom: 1px dotted #696F75;
 }
 
 .location .img-w {

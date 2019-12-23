@@ -23,4 +23,9 @@ $(function () {
     $('.modal-back').hide()
   })
 
+  $('.location').click(function () {
+    $('.location').removeClass('location-active')
+    $(this).addClass('location-active')
+  })
+
 })
