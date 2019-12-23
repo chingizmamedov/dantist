@@ -33,7 +33,12 @@
         color: #4E8C25;
       }
     }
-    
+    & .d-flex {
+      cursor: pointer;
+      &:hover {
+        color: #6db33e;
+      }
+    }
   }
   &-img {
     width: 96px;
@@ -76,6 +81,9 @@
       }
       &--active {
         color: #4E8C25;
+      }
+      &:hover{
+        color: #6db33e;
       }
     }
   }
