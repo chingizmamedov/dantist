@@ -1,9 +1,16 @@
-@media screen and (max-width: 1397px) {
+@media screen and (max-width:1800px) {
   .flower-right {
     display: none !important;
   }
   .flower-left {
     display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 1397px) {
+  .mobile-tel {
+    font-size: 14px;
   }
 }
 

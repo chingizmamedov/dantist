@@ -61,6 +61,7 @@ h1.title {
   color: #4E8C25;
   line-height: 48px;
   margin-bottom: 24px;
+  margin-top: 0;
 }
 
 .sub-title {
@@ -152,6 +153,9 @@ h1.title {
     padding: 24px 32px;
     margin-bottom: 28px;
     position: relative;
+    font-size: 18px;
+    line-height: 32px;
+    color: #373A40;
     &:before {
       position: absolute;
       bottom: -28px;
