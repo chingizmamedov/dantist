@@ -36,6 +36,9 @@
       width: 100%;
     }
   }
+  .p-0 > .callback {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 320px) {

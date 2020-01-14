@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+@import 'fonts';
+
 * {
   margin: 0;
   padding: 0;
@@ -62,6 +64,7 @@ h1.title {
   line-height: 48px;
   margin-bottom: 24px;
   margin-top: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .sub-title {
@@ -184,12 +187,17 @@ h1.title {
   }
 }
 
+.p-0 > .callback {
+  max-width: 320px;
+  float: right;
+}
 
 .callback {
   background: #F0F3F7;
   border-radius: 4px;
   padding: 32px;
   margin-bottom: 96px;
+
   & form {
     display: flex;
     flex-direction: column;
@@ -231,10 +239,12 @@ h1.title {
   border-radius: 24px;
   height: 48px;
   color: #fff;
+  border: none;
   cursor: pointer;
   &-callback {
     max-width: 200px;
     border: none;
+    text-transform: uppercase;
   }
   &-priyem {
     width: 100%;
@@ -292,7 +302,9 @@ h1.title {
     width: 100%;
   }
 }
-
+h2, h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .form-head {
   text-align: center;
   & h2 {
