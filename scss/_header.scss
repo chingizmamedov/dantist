@@ -129,8 +129,13 @@
 
 .menu {
   list-style-type: none;
+  height: 100%;
+  align-items: center;
   & li {
     margin-right: 4%;
+    height: 100%;
+    align-items: center;
+    display: flex;
   }
   & a {
     color: #373A40;
@@ -144,7 +149,7 @@
     color: #4E8C25;
   }
 }
-.nested {
+.nested > a {
   position: relative;
   &:before {
     width: 9px;
@@ -154,7 +159,7 @@
     border-width: 0 1px 1px 0;
     position: absolute;
     right: -18px;
-    top: 3px;
+    top: 0;
     transform: rotate(45deg);
   }
 }

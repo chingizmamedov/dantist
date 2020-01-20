@@ -22,6 +22,9 @@
 
 
 @media screen and (max-width: 769px) {
+  .submenu {
+    padding: 20px 25px;
+  }
   #wrap {
     width: 91%;
     margin: auto;
@@ -48,6 +51,7 @@
   .content-img {
     display: none;
   }
+  
 }
 
 @media screen and (max-width: 320px) {

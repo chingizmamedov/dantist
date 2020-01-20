@@ -14,6 +14,7 @@
 body {
   background: #fff;
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
 
 
@@ -399,4 +400,51 @@ h2, h1 {
     z-index: 97;
     display: none;
   }
+}
+
+.submenu{
+  width: 100vw;
+  max-width: 100vw;
+  background: #F0F3F7;
+  padding-top: 24px;
+  padding-bottom: 32px;
+  position: absolute;
+  z-index: 22;
+  top: 60px;
+  left: 0;
+  display: none;
+  &-item {
+    background-image: url(/assets/image/Icon/Terapiya.png);
+    background-repeat: no-repeat;
+    background-position: 0 -50px;
+    padding-left: 18px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 7px;
+    & img {
+      width: 32px;
+      height: 30px;
+      position: absolute;
+      top: 0;
+      left: -10px;
+    }
+    &-title {
+      color: #373A40;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 32px;
+    }
+    &-link{
+      color: #373A40 !important;
+      font-size: 15px;
+      line-height: 24px;
+    }
+  }
+}
+.nested:hover > .submenu {
+  display: block;
+}
+
+.menu-wrap, .menu-wrap-inn {
+  height: 100%;
 }

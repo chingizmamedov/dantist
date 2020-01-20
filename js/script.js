@@ -12,6 +12,18 @@ $(function () {
     
   })
 
+  $(".nested").mouseover(function(e) {
+    e.stopPropagation()
+
+    var leftOutside = $(this).find('a').siblings('.submenu').offset().left
+    console.log("TCL: leftOutside", leftOutside)
+    console.log("TCL: $(this).find('.submenu')", $(this).find('.submenu'))
+    if(leftOutside > 0) 
+    $(this).find('a').siblings('.submenu').css({
+      left: -leftOutside
+    })
+  });
+
 
   $(".header-callback").click(function(e) {
     e.preventDefault()
