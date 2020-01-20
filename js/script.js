@@ -13,7 +13,8 @@ $(function () {
   })
 
 
-  $(".header-callback").click(function() {
+  $(".header-callback").click(function(e) {
+    e.preventDefault()
     $('.modal').show()
     $('.modal-back').show()
   })
